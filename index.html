@@ -45,7 +45,7 @@
             <dd class="series"></dd>
             <dd class="ym"></dd>
             <dd class="rgtn"></dd>
-            <dd><a class="isbn url" target="_blank"></a></dd>
+            <dd><a class="title url" target="_blank"></a></dd>
           </dl>
         </li>
       </ul>
@@ -63,7 +63,7 @@
   <script src="//cdnjs.cloudflare.com/ajax/libs/list.fuzzysearch.js/0.1.0/list.fuzzysearch.min.js"></script>
   <script src = "https://d3js.org/d3.v7.min.js"></script>
   <script>
-    const input_file = "cat10000_url.tsv"; // 入力ファイル指定
+    const input_file = "sample003.tsv"; // 入力ファイル指定
     d3.tsv(input_file).then(function(values) {
       // fuzzy search設定
       var fuzzyOptions = {
